@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScriptを使った簡単な電卓</title>
+
+	<script>
+ 	function tasu() {
+ 		var ans;
+		var v1 = document.getElementById("a").value;
+		var v2 = document.getElementById("b").value;
+		ans = Number(v1)+Number(v2);
+		alert("答えは＝"+ans);
+ 	}
+	</script>
+</head>
+
+<body>
+<h1>２つの数の計算</h1>
+	<form>
+	   A= <input type="text" id="a" /> </br>
+	   B= <input type="text" id="b" /> </br>
+	   <button type="button" onclick="tasu();"> 足し算</button>
+    </form>  
+</body>
+</html>
