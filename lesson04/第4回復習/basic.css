@@ -1,0 +1,64 @@
+@charset "utf-8";
+header {
+    height: 120px;
+    width: 800px;
+	background-color: #F7A1A2;
+}
+header h1 {
+    color: #FF0000;
+}
+nav {
+	height: 30px;
+    width: 800px;
+	background-color: #F7F66B;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+  	margin-left: 1em;
+}
+
+.big_box{
+    height: 550px;
+    width: 800px;
+}
+main{
+    height: 550px;
+    width: 600px;
+    background-color: #217113;
+    float: left;
+}
+.r_aside {
+    height: 550px;
+    width: 200px;
+    background-color: #693E95;
+    float: right;
+}
+
+article {
+    height: 250px;
+    width: 600px;
+    background-color: #91FBE5;
+}
+section {
+    height: 150px;
+    width: 200px;
+    background-color: #EAF9B5;
+    float: left;
+}
+
+aside {
+    height: 100px;
+    width: 200px;
+    background-color: #8083DA;
+    float: right;
+}
+footer {
+    height: 70px;
+    width: 800px;
+    background-color: #E54FB4;
+    float: left;
+}
