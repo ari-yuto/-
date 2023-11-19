@@ -1,0 +1,46 @@
+article {
+    margin-top: 1em;
+    margin-left: 10px;
+}
+.nav-item{
+    margin-left: 10px;
+}
+.TopImg{
+    background-image: url(2023素材例/外観.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    width: 80%;
+    height: 80vh;
+}
+.top {
+    padding: 10px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+footer{
+    padding: 10px;
+}
+.WineScript{
+    width: 50%;
+    margin: 0 auto;
+    border: solid 3px #000;
+    background-color: aliceblue;
+}
+.WinePic img{
+    width: 33%;
+    height: 33%;
+    padding: 10px;
+    border-radius: 20px;
+    float: left;
+}
+.Wine {
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
