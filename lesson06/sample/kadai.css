@@ -15,6 +15,7 @@ article {
 }
 .top {
     padding: 10px;
+    margin: 1em;
 }
 .left{
     float: left;
@@ -27,7 +28,8 @@ footer{
 }
 .WineScript{
     width: 50%;
-    margin: 0 auto;
+    margin: 1em auto;
+    padding: 10px;
     border: solid 3px #000;
     background-color: aliceblue;
 }
@@ -40,6 +42,7 @@ footer{
 }
 .Wine {
     padding: 0px;
+    margin: 1em;
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
